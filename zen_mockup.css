@@ -1,0 +1,129 @@
+/*notes
+Background - grey = EEEEEE
+Text and background - red = E23045
+Text - ivory = FFF6E0
+
+*/
+@import url(https://fonts.googleapis.com/css?family=Nova+Square);
+
+body {
+	background-color: #EEEEEE;
+	font-family: sans-serif;
+}
+
+.intro{
+	min-width: 475px;
+	font-weight: bold;
+}
+
+.intro, a {
+	color: #FFF6E0;
+}
+
+.intro h2 { 
+	background-color: #E23045; 
+	border-radius: 3px;
+	padding: 10px 5px;
+}
+
+a {
+	text-decoration: none;
+}
+
+article a, h1 {
+	color: #E23045;
+
+}
+
+.preamble {
+	background-color: #1B4549;
+	padding: 30px 10px;
+	margin: 15px 0 70px 0;
+}
+
+main article {
+	background-color: #FFF6E0;
+	border: 1px solid #333333;
+	padding: 20px 20px;
+	margin: 10px 0;
+}
+
+main article, .preamble {
+	box-shadow: 30px 40px #7AB3B0;
+	border-radius: 3px;
+}
+
+.resources {
+	display: none;
+}
+
+li {
+	list-style-type: none;
+	box-shadow: 10px 10px #F59F81;
+	text-align: center;
+	background-color: #E23045;
+	margin: 5px 0;
+	padding: 7px 0;
+	font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Nova Square', cursive;
+	margin: 0;
+}
+header * {
+	margin: 15px 0;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+p {
+	font-size: 20px;
+}
+
+
+
+.page-wrapper {
+	padding: 50px 20px 50px 20px;
+	width: 55%;
+	margin: 0 auto;
+}
+
+.main {
+	width: 65%;
+	display: inline-block;
+	min-width: 475px;
+}
+
+.sidebar {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	min-width: 250px
+}
+
+p {
+	margin-bottom: 0;
+}
+
+footer a {
+	background-color: #908673;
+	box-shadow: 10px 20px #D8CFBC;
+	padding: 5px 10px;
+	border-radius: 3px;
+}
+
+footer {
+	margin-top: 60px;
+	text-align: right; 
+}
