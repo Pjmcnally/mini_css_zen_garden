@@ -5,28 +5,32 @@ body {
 	font-family: sans-serif;
 }
 
+.page-wrapper {
+	padding: 50px 0;
+	width: 55%;
+	margin: 0 auto;
+	min-width: 475px;
+}
+
 header * {
 	margin: 15px 0;
 }
 
-.intro{
-	min-width: 475px;
-	color: #FFF6E0;
-}
-
 .intro h2 { 
+	color: #FFF6E0;
 	background-color: #E23045; 
 	border-radius: 3px;
 	padding: 10px 5px;
 }
 
 .preamble {
+	color: #FFF6E0;
 	background-color: #1B4549;
 	padding: 30px 10px;
 	margin: 15px 0 70px 0;
 }
 
-main article, .preamble {
+.main article, .preamble {
 	box-shadow: 30px 40px #7AB3B0;
 	border-radius: 3px;
 }
@@ -37,7 +41,7 @@ main article, .preamble {
 	min-width: 475px;
 }
 
-main article {
+.main article {
 	background-color: #FFF6E0;
 	border: 1px solid #333333;
 	padding: 20px 20px;
@@ -56,6 +60,7 @@ li {
 	margin: 5px 0;
 	padding: 7px 0;
 	font-weight: bold;
+	border-radius: 2px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -64,19 +69,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 3.75rem;
+	margin-bottom: 20px;
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 2rem;
 }
 
 h3 {
-	font-size: 24px;
+	font-size: 1.5rem;
 }
 
 p {
-	font-size: 20px;
+	font-size: 1.25rem;
 	margin-bottom: 0;
 }
 
@@ -89,17 +95,17 @@ article a, h1 {
 	color: #E23045;
 }
 
-.page-wrapper {
-	padding: 50px 20px 50px 20px;
-	width: 55%;
-	margin: 0 auto;
+ul{
+	padding: 0;
 }
 
 .sidebar {
 	display: inline-block;
 	vertical-align: top;
-	width: 30%;
-	min-width: 250px
+	width: 25%;
+	margin-left: 7%;
+	min-width: 225px;
+
 }
 
 footer a {
